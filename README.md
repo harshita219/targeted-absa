@@ -71,6 +71,8 @@ ________________________________________________________________________________
   
   transit_f1_score: 0.4198 - transit_acc: 0.8254
   
+#### => Failure Analysis [incoming]
+
 
 ### References:
 https://keras.io/examples/nlp/text_classification_with_transformer/
