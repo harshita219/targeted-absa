@@ -49,6 +49,9 @@ Trainable params: 109,582,220
 Non-trainable params: 0
 __________________________________________________________________________________________________
 ```
+
+![model_architecture](https://github.com/harshita219/targeted-absa/blob/main/model.png)
+
 ### Results
 
 1. For Location-1, performance of BERT for detecting 3 sentiments for each aspect: ['Negative','None','Positive']
