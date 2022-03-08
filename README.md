@@ -56,23 +56,25 @@ ________________________________________________________________________________
 
 1. For Location-1, performance of BERT for detecting 3 sentiments for each aspect: ['Negative','None','Positive']
 
-  general_f1_score: 0.7063 - general_acc: 0.7481 
+  * general_f1_score: 0.0.7385 - general_acc: 0.8384 
   
-  price_f1_score: 0.7677 - price_acc: 0.8962 
+  * price_f1_score: 0.8202 - price_acc: 0.9497 
   
-  safety_f1_score: 0.8249 - safety_acc: 0.9278 
+  * safety_f1_score: 0.8236 - safety_acc: 0.9651 
   
-  transit_f1_score: 0.5580 - transit_acc: 0.8722
+  * transit_f1_score: 0.6037 - transit_acc: 0.9188
+
 
 2. For Location-2, performance of BERT for detecting 3 sentiments for each aspect: ['Negative','None','Positive']
 
-  general_f1_score: 0.4600 - general_acc: 0.6190 
+  * general_f1_score: 0.6102 - general_acc: 0.8119 
   
-  price_f1_score: 0.4714 - price_acc: 0.7566 
+  * price_f1_score: 0.6802 - price_acc: 0.9098 
   
-  safety_f1_score: 0.3498 - safety_acc: 0.8413 
+  * safety_f1_score: 0.5904 - safety_acc: 0.9381 
   
-  transit_f1_score: 0.4198 - transit_acc: 0.8254
+  * transit_f1_score: 0.4803 - transit_acc: 0.9098
+  
   
 #### => Failure Analysis [incoming]
 
