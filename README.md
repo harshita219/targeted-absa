@@ -52,18 +52,21 @@ ________________________________________________________________________________
 
 ![model_architecture](https://github.com/harshita219/targeted-absa/blob/main/model.png)
 
-### Results
+### Results (Macro-F1 and Accuracy)
 
 1. For Location-1, performance of BERT for detecting 3 sentiments for each aspect: ['Negative','None','Positive']
 
-  * general_f1_score: 0.0.7385 - general_acc: 0.8384 
+  * general_f1_score: 0.7385 - general_acc: 0.8384 
   
   * price_f1_score: 0.8202 - price_acc: 0.9497 
   
   * safety_f1_score: 0.8236 - safety_acc: 0.9651 
   
   * transit_f1_score: 0.6037 - transit_acc: 0.9188
+  
+  **Average_f1_score: 0.7465 - Average_acc: 0.918**
 
+<br />
 
 2. For Location-2, performance of BERT for detecting 3 sentiments for each aspect: ['Negative','None','Positive']
 
@@ -75,8 +78,15 @@ ________________________________________________________________________________
   
   * transit_f1_score: 0.4803 - transit_acc: 0.9098
   
+  **Average_f1_score: 0.5902 - Average_acc: 0.8924**
   
-#### => Failure Analysis [incoming]
+ <br />
+ 
+ > **_OVERALL_:**  **Average_f1_score: 0.6683 - Average_acc: 0.9052**
+  
+  
+### Results Analysis
+[Notebook](https://github.com/harshita219/targeted-absa/blob/main/result_analysis.ipynb)
 
 
 ### References:
